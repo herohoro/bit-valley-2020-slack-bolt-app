@@ -35,7 +35,7 @@ enableReqeustLogger(app);
 
 // npm run local (nodemon がファイルの変更を検知してくれます)
 (async () => {
-  await app.start(process.env.PORT || 3000); // POST http://localhost:3000/slack/events
+  await app.start(process.env.PORT || 3010); // POST http://localhost:3010/slack/events
   console.log("⚡️ Bolt app is running!");
 })();
 
